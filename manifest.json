@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Tabs",
+  "description": "A small tool to count tabs and windows.",
+  "author": "kejcao@proton.me",
+  "version": "1.0",
+  "icons": {
+    "16": "tabs.png",
+    "32": "tabs.png",
+    "48": "tabs.png",
+    "128": "tabs.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "tabs.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
